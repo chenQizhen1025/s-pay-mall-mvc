@@ -10,27 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42470e6d-a3fd-4275-8879-b911fff4a267" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-dao/src/main/java/chen/study/mall/dao/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/src/main/java/chen/study/mall/domain/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/test/java/chen/study/mall/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/src/main/java/chen/study/mall/domain/po/WeixinTemplateMessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/src/main/java/chen/study/mall/domain/req/WeixinQrCodeReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/ILoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/Impl/ILoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/weixin/IWeixinApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/config/GuavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/config/Retrofit2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +29,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
         <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/chenQizhen1025/s-pay-mall-mvc.git",
-    "accountId": "f0272272-2f65-4eb2-8a41-085ded18c265"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chenQizhen1025/s-pay-mall-mvc.git&quot;,
+    &quot;accountId&quot;: &quot;f0272272-2f65-4eb2-8a41-085ded18c265&quot;
   }
-}]]></component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -85,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "weixin-login",
     "last_opened_file_path": "D:/code/s-pay-mall-mvc-chen",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
