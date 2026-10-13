@@ -13,6 +13,12 @@ logging:
     root: info
   config: classpath:logback-spring.xml
 
+# 微信公众号对接
+weixin:
+  config:
+    originalid: gh_40610e11a210
+    token: b8b6
+
 spring:
   datasource:
     username: root
@@ -32,6 +38,6 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     filters: stat
 
-mybatis:
-  mapper-locations: classpath:/mybatis/mapper/*.xml
-  config-location:  classpath:/mybatis/config/mybatis-config.xml
+#mybatis:
+#  mapper-locations: classpath:/mybatis/mapper/*.xml
+#  config-location:  classpath:/mybatis/config/mybatis-config.xml
