@@ -9,16 +9,20 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42470e6d-a3fd-4275-8879-b911fff4a267" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/src/main/java/chen/study/mall/domain/po/WeixinTemplateMessageVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-domain/src/main/java/chen/study/mall/domain/req/WeixinQrCodeReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/ILoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/Impl/ILoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/weixin/IWeixinApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/config/GuavaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/config/Retrofit2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/LoginController.java" afterDir="false" />
+    <list default="true" id="42470e6d-a3fd-4275-8879-b911fff4a267" name="更改" comment="登录">
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/Response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/constants/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/exception/AppException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/MessageTextEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/wexin/MessageTextEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/SignatureUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/wexin/SignatureUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/XmlUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/wexin/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-common/src/main/java/chen/study/mall/common/wexin/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/Impl/ILoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-service/src/main/java/chen/study/mall/service/Impl/WeixinLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/WeixinPortalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/java/chen/study/mall/controller/WeixinPortalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/s-pay-mall-web/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +36,7 @@
         <option value="JavaFXApplication" />
         <option value="package-info" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -39,6 +44,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chenQizhen1025&quot;
+  }
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/chenQizhen1025/s-pay-mall-mvc.git&quot;,
@@ -71,7 +82,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.s-pay-mall-mvc-chen [compile].executor": "Run",
+    "Maven.s-pay-mall-web [org.apache.maven.plugins:maven-compiler-plugin:3.0:compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Application.executor": "Run",
@@ -85,7 +101,7 @@
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -94,6 +110,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\s-pay-mall-mvc-chen\s-pay-mall-common" />
@@ -139,7 +158,18 @@
       <workItem from="1791800344460" duration="53000" />
       <workItem from="1791800410358" duration="13000" />
       <workItem from="1791800459159" duration="1138000" />
+      <workItem from="1792117732569" duration="10372000" />
+      <workItem from="1792142272815" duration="1280000" />
     </task>
+    <task id="LOCAL-00001" summary="登录">
+      <option name="closed" value="true" />
+      <created>1791888205645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791888205645</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +197,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="登录" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

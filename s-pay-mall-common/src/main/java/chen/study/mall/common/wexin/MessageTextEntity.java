@@ -1,4 +1,4 @@
-package chen.study.mall.common;
+package chen.study.mall.common.wexin;
 
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 
