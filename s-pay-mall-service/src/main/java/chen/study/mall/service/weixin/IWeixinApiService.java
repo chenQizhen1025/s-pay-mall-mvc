@@ -1,5 +1,5 @@
 package chen.study.mall.service.weixin;
-import chen.study.mall.domain.po.WeixinTemplateMessageVO;
+import chen.study.mall.domain.vo.WeixinTemplateMessageVO;
 import chen.study.mall.domain.req.WeixinQrCodeReq;
 import chen.study.mall.domain.res.WeixinQrCodeRes;
 import chen.study.mall.domain.res.WeixinTokenRes;

@@ -1,17 +1,13 @@
 package chen.study.mall.service.Impl;
 
 
-import chen.study.mall.common.exception.AppException;
-import chen.study.mall.domain.po.WeixinTemplateMessageVO;
+import chen.study.mall.domain.vo.WeixinTemplateMessageVO;
 import chen.study.mall.domain.req.WeixinQrCodeReq;
 import chen.study.mall.domain.res.WeixinQrCodeRes;
 import chen.study.mall.domain.res.WeixinTokenRes;
 import chen.study.mall.service.ILoginService;
 import chen.study.mall.service.weixin.IWeixinApiService;
-import org.redisson.api.RBucket;
-import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import com.google.common.cache.Cache;
@@ -21,7 +17,6 @@ import javax.annotation.Resource;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
 
 
 /**

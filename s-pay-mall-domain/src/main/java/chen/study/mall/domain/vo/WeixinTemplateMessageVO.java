@@ -1,4 +1,4 @@
-package chen.study.mall.domain.po;
+package chen.study.mall.domain.vo;
 
 
 import java.util.HashMap;
